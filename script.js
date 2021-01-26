@@ -25,7 +25,7 @@ function countdown(){
 
   if ( timeleft < 0)
     {
-      document.getElementById("demo").innerHTML = "Happy BirthDay Alisa";
+      document.getElementById("demo").innerHTML = "";
       document.getElementById("days").style.visibility="hidden";
       document.getElementById("hours").style.visibility="hidden";
       document.getElementById("mins").style.visibility="hidden";
